@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#09090F">
+    <meta name="description" content="Alive — estúdio criativo independente de design e tecnologia.">
+
+    <title>Alive — Design & Tecnologia</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <a href="#inicio" class="logo">Alive<span>.</span></a>
+
+        <nav>
+            <a href="#inicio">Início</a>
+            <a href="#sobre">Sobre</a>
+            <a href="#servicos">Serviços</a>
+            <a href="#projetos">Projetos</a>
+            <a href="#contato">Contato</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="inicio" class="hero">
+
+            <div class="hero-content">
+
+                <p class="hero-label">
+                    CRIATIVIDADE • DESIGN • TECNOLOGIA
+                </p>
+
+                <h1>
+                    <span class="h1-small">Onde a <span class="arte">arte</span> ganha</span>
+                    <em class="h1-big">Alive.</em>
+                </h1>
+
+                <p class="hero-description">
+                    Crio experiências visuais e soluções digitais
+                    para comunidades, servidores e projetos.
+                </p>
+
+                <div class="hero-buttons">
+                    <a href="#servicos" class="btn-primary">
+                        Explorar projetos <span>↗</span>
+                    </a>
+
+                    <a href="#sobre" class="btn-secondary">
+                        Sobre mim
+                    </a>
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- SOBRE MIM -->
+        <section id="sobre" class="about">
+            <div class="about-text">
+                <p class="hero-label">SOBRE MIM</p>
+                <h2>Criatividade com <em>propósito</em></h2>
+                <p>
+                    Sou Ana Beatriz, criadora por trás da Alive. Trabalho com design gráfico, criação de identidades visuais, desenvolvimento e organização de servidores Discord, automações e soluções digitais. Utilizo ferramentas como Canva e Photopea para transformar ideias em projetos criativos, funcionais e cheios de personalidade.
+                </p>
+                <p>
+                    Gosto de criar identidades visuais e soluções digitais que deixam
+                    comunidades mais organizadas, bonitas e com personalidade.
+                </p>
+            </div>
+
+            <div class="about-cards">
+                <div class="mini-card">
+                    <h3>Conceito</h3>
+                    <p>Alive significa dar vida às ideias, com estética própria e cuidado em cada detalhe.</p>
+                </div>
+                <div class="mini-card">
+                    <h3>Design + Tecnologia</h3>
+                    <p>Visual e funcionalidade juntos: da arte do banner à automação do servidor.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- O QUE EU FAÇO -->
+        <section id="servicos" class="services">
+            <p class="hero-label">O QUE EU FAÇO</p>
+            <h2>Serviços</h2>
+
+            <div class="services-grid">
+                <button type="button" class="service-card" data-category="discord">
+                    <span class="service-number">01</span>
+                    <h3>Design para Discord</h3>
+                    <p>Banners, embeds e identidade visual para servidores.</p>
+                    <span class="service-more">Ver trabalhos →</span>
+                </button>
+
+                <button type="button" class="service-card" data-category="automacao">
+                    <span class="service-number">02</span>
+                    <h3>Automação e sistemas</h3>
+                    <p>Bots, organização de sistemas e logs.</p>
+                    <span class="service-more">Ver trabalhos →</span>
+                </button>
+
+                <button type="button" class="service-card" data-category="grafico">
+                    <span class="service-number">03</span>
+                    <h3>Design gráfico</h3>
+                    <p>Apresentações, slides, capas e materiais no Canva.</p>
+                    <span class="service-more">Ver trabalhos →</span>
+                </button>
+
+                <button type="button" class="service-card" data-category="identidade">
+                    <span class="service-number">04</span>
+                    <h3>Identidade visual</h3>
+                    <p>Conceitos visuais e elementos de marca.</p>
+                    <span class="service-more">Ver trabalhos →</span>
+                </button>
+            </div>
+        </section>
+
+        <!-- PROJETOS -->
+        <section id="projetos" class="projects">
+            <p class="hero-label">PROJETOS</p>
+            <h2>Trabalhos <em>selecionados</em></h2>
+
+            <div class="projects-grid">
+                <article class="project-card project-card--empty">
+                    <span class="project-tag">Em breve</span>
+                    <h3>Novos projetos</h3>
+                    <p>Mais trabalhos serão adicionados aqui.</p>
+                </article>
+            </div>
+        </section>
+
+        <!-- CONTATO -->
+        <section id="contato" class="contact">
+            <p class="hero-label">CONTATO</p>
+            <h2>Vamos <em>conversar?</em></h2>
+            <p class="contact-text">
+                Tem uma ideia, um servidor ou um projeto? Me chama que a gente cria algo com a sua cara.
+            </p>
+
+            <div class="contact-links">
+                <a href="https://discord.com/users/754475042007548005" class="btn-primary" target="_blank" rel="noopener">Discord ↗</a>
+                <a href="https://mail.google.com/mail/?view=cm&to=alive.anabeat@gmail.com&su=Quero%20conversar%20com%20a%20Alive"
+                   class="btn-secondary" target="_blank" rel="noopener">E-mail</a>
+            </div>
+        </section>
+    </main>
+
+    <!-- JANELA DOS TRABALHOS POR CATEGORIA -->
+    <div class="modal" id="modal" aria-hidden="true">
+        <div class="modal-backdrop" data-close></div>
+
+        <div class="modal-panel" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+            <button type="button" class="modal-close" data-close aria-label="Fechar">✕</button>
+
+            <p class="hero-label" id="modal-label"></p>
+            <h2 id="modal-title"></h2>
+            <p class="modal-desc" id="modal-desc"></p>
+
+            <div class="modal-grid" id="modal-grid"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
